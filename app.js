@@ -8,7 +8,7 @@
   var gem = {
     name: 'Azurite',
     price: 110.50,
-    canPurchase: true,
+    canPurchase: false,
     soldOut: true
   };
 })();
