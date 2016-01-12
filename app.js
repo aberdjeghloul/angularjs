@@ -22,6 +22,9 @@
     this.setCurrent = function(newGallery){
       this.current = newGallery || 0;
     };
+	this.isCurrent = function(currentGallery){
+		return this.current === currentGallery;
+	};
   });
 
   var gems = [
